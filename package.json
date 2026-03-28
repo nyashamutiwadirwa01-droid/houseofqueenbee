@@ -1,0 +1,21 @@
+{
+  "name": "house-of-queen-bee-backend",
+  "version": "1.0.0",
+  "description": "Payment backend for House of Queen Bee",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "paynow": "^2.0.2",
+    "stripe": "^14.0.0",
+    "@paypal/checkout-server-sdk": "^1.0.3"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
